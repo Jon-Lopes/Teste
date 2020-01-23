@@ -1,0 +1,190 @@
+<html class="ui-mobile"><head><base href="https://geek-silva.neocities.org/sinformaqui/">
+	<title>Page Title</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script></head>
+
+
+<body class="ui-mobile-viewport ui-overlay-a">
+
+<!-- Inicio Tela Principal -->
+<div data-role="page" style="background: rgb(255, 255, 255) url(&quot;img/bg-principal.png&quot;) repeat scroll 0% 0%; width: 100%; padding-bottom: 50px; min-height: 589px;" data-theme="a" id="principal" data-url="principal" tabindex="0" class="ui-page ui-page-theme-a ui-page-footer-fixed ui-page-active">
+
+	
+
+	<div role="main" data-position="fixed" data-fullscreen="true" class="ui-content">
+		
+		
+		
+	</div><!-- /content -->
+	
+		<div data-position="fixed" data-role="footer" style="background-color:#fff;" role="contentinfo" class="ui-footer ui-bar-inherit ui-footer-fixed slideup">
+		
+		<div class="ui-grid-a ui-responsive">
+    <div class="ui-block-b"><a href="#saude" class="ui-shadow ui-btn ui-corner-all" style="width:90%;">Portugues</a></div>
+    <div class="ui-block-c"><a class="ui-shadow ui-btn ui-corner-all" style="width:90%;">Espanhol</a></div>
+
+		
+	    </div><!-- /footer -->
+</div><!-- /page -->
+
+
+	
+</div><!-- /page -->
+
+<!-- Fim Tela Principal -->
+
+
+
+<!-- Inicio Tela 3 -->
+
+<div data-role="page" style="background:#fff;background-image: url(img/bg.png);width:100%" id="saude" data-url="saude">
+
+	<div data-role="header" style="color:#663399;background-color:#fff;">
+		<h1>SINFORMAQUI</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<div class="ui-grid-a">
+		<div class="ui-block-a"><a class="ui-shadow  ui-corner-all" style="color:#663399;">SERVICOS</a></div>
+		</div>
+		
+    
+	<div class="ui-grid-a">
+		<ul data-role="listview" data-inset="true">
+    <li><a href="#hospitais">Hospital</a></li>
+    <li><a href="#">UBS</a></li>
+    <li><a href="#">Medicamentos e Vacinas</a></li>
+    <li><a href="#">Pronto Socorro</a></li>
+    <li><a href="#">UPA- Unidade de Pronto Atendimento</a></li>
+</ul>
+    </div>
+	
+	
+	</div>
+	</div><!-- /content -->
+	
+
+	<div data-position="fixed" data-role="footer">
+		<h4>Ganhe Tempo.</h4>
+	</div><!-- /footer -->
+
+
+
+<!-- Fim Tela 3 -->
+
+<!-- Inicio Tela 4 -->
+
+
+<div data-role="page" style="background:#fff;background-image: url(img/bg.png);width:100%" id="hospitais" data-url="hospitais">
+
+	<div data-role="header" style="color:#663399;background-color:#fff;">
+		<h1>INFORMAQUI</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<div class="ui-grid-a">
+		<div class="ui-block-a"><a class="ui-shadow  ui-corner-all" style="color:#663399;">HOSPITAIS</a></div>
+		</div>
+		
+    
+	<div class="ui-grid-a">
+		<ul data-role="listview" data-inset="true">
+    
+    <li><a href="#hospitais-01">SPA e Policlinica Dr. Danilo Corrêa</a></li>
+    <li><a href="#">Policlínica João dos Santos Braga</a></li>
+    <li><a href="#">Hospital D. Francisca Mendes</a></li>
+</ul>
+    </div>
+	
+	
+	</div>
+	</div><!-- /content -->
+	
+
+	<div data-position="fixed" data-role="footer">
+		<h4>Ganhe Tempo.</h4>
+	</div><!-- /footer -->
+
+
+
+<!-- Fim Tela 4 -->
+
+<!-- Inicio Tela 5 -->
+
+
+<div data-role="page" style="background:#fff;background-image: url(img/bg.png);width:100%" id="hospitais-01" data-url="hospitais-01">
+
+	<div data-role="header" data-theme="a" style="color:#663399;background-color:#fff;">
+	
+		<h1>Dr. Danilo Corrêa</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+	
+	<div data-theme="a" data-form="ui-body-a" class="ui-body ui-body-a ui-corner-all">
+
+		
+		 
+            <img src="https://www.acritica.com/uploads/news/image/747095/show_spa.jpg" style="width: 100%;" alt="Photo landscape">
+
+	</div>
+		
+    
+	<div class="ui-grid-a">
+	<div data-theme="b" data-form="ui-body-a" class="ui-body ui-body-a ui-corner-all">
+		<p>Endereço: </p>
+		<p>Av. Noel Nutels, s/n - Cj. Cidade Nova I, Manaus - AM, 69096-000</p>
+	</div>
+	<div data-theme="b" data-form="ui-body-b" class="ui-body ui-body-a ui-corner-all">
+		<p>Horário de Atendimento</p>
+		<p>Atendimento 24 horas<a href="#" data-theme="b" data-form="ui-link-b" class="ui-link">links</a>.</p>
+	</div>
+	
+	<div data-theme="b" data-form="ui-body-b" class="ui-body ui-body-a ui-corner-all">
+		<p>Onibus </p>
+		<p><a href="#" data-theme="b" data-form="ui-link-b" class="ui-link"> 800</a>
+		<a href="#" data-theme="b" data-form="ui-link-b" class="ui-link"> 600</a>
+		<a href="#" data-theme="b" data-form="ui-link-b" class="ui-link"> 700</a>
+		</p>
+	</div>
+	
+	<div data-theme="b" data-form="ui-body-b" class="ui-body ui-body-a ui-corner-all">
+		<p>Horários</p>
+		<p>Urgência e emergência (24 horas)</p>
+		<p>Policlínica (de 07:00 às 19:00 h)</p>
+
+	</div>
+	
+	<div data-theme="b" data-form="ui-body-b" class="ui-body ui-body-a ui-corner-all">
+		<p>Especilidades</p>
+		<p>Periodontia; Endodontia; Oftalmologia; Ortopedia; Neurologia; Cardiologia; Pneumologia; Reumatologia; Dermatologia; Gastroenterologia; Ginecologia</p>
+	</div>
+	
+	<div data-theme="b" data-form="ui-body-b" class="ui-body ui-body-a ui-corner-all">
+		<p>Exames</p>
+		<p>Eletrocardiograma; Eletroencefalograma; Endoscopia; Mapeamento de retina; Ultrasonografia; Raios-X; Serviço de Diagnóstico por Laboratório Clínico</p>
+	</div>
+
+
+
+
+    </div>
+	
+	
+	</div>
+	</div><!-- /content -->
+	
+
+	<div data-position="fixed" data-role="footer">
+		<h4>Ganhe Tempo.</h4>
+	</div><!-- /footer -->
+
+
+
+<!-- Fim Tela 5 -->
+
+
+<div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon-loading"></span><h1>loading</h1></div></body></html>
